@@ -1,0 +1,186 @@
+.owl-nav{
+    font-size: 150%;
+    text-align: end !important;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 3px 3px 0;
+    border: 2px solid black;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    position: absolute;
+    right: 0;
+    margin-top: -170px;
+}
+
+.owl-carousel .owl-nav button.owl-prev{
+    position: absolute;
+    margin-top: -170px;
+    left: 0;
+
+}
+
+.carousel-join{
+    position: relative;
+    
+   
+}
+
+.p-height{
+    margin-top: -4%;
+}
+
+.carousel-title{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    color: white;
+    
+}
+
+.card-price{
+    padding-left: 14%;
+}
+
+.box-img{
+    height: 80% !important;
+    width: 80% !important;
+    
+    
+}
+
+.rating{
+    background-color: rgb(2, 59, 2)  ;
+    width: 13%;
+    font-size: 11px;
+    margin-left: 15%;
+}
+
+.location button{
+    margin: 2%;
+}
+
+.location i{
+    padding-left: 55%;
+    font-size: 15px;
+    
+}
+
+
+.itfKKc{
+    background-color: rgb(246, 32, 67); 
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    z-index: 2;
+    right: 3rem;
+    bottom: 3rem;
+    border: none;
+}
+
+.itfKKc span {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.social-change {
+    width: 20px !important;
+    font-size: 20px;
+    
+}
+
+.foot-change{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .animate-on-scroll {
+        border-radius: 10px;
+        height: 33%;
+        width: 33%;
+        transition:
+        width 2s,
+        height 2s,
+        background-color 2s,
+        
+    }
+    
+    
+    .animate-on-scroll:hover {
+        border: 1px solid black;
+        width: 33%;
+        height: 30%;
+        padding: 50;
+        box-shadow: 10%;
+        
+      }
+      
+      .but-location{
+        width: 250px !important;
+      }
+
+      
+    .label-img img{
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .label-img h2{
+        font-size: 15px !important;
+    }
+
+    .location .col-lg-4{
+        width: 200px !important;
+        margin: 6%;
+    }
+
+      
+}
+
+@media only screen and (max-width: 600px){
+
+
+    .but-location{
+        width: 150px !important;
+    }
+
+    .location .col-lg-4{
+        width: 150px !important;
+        margin: 2%;
+    }
+
+    .home .nav-item{
+        width: 100px;
+    }
+
+    .label-img img{
+        width: 40px !important;
+        height: 40px !important;
+    }
+
+    .label-img h2{
+        font-size: 15px !important;
+    }
+
+    .postion-change{
+        padding-right: 115px !important;
+    }
+
+    .foot-change{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
